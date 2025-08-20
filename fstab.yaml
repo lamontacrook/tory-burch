@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+    url: "https://author-p128352-e1258333.adobeaemcloud.com/bin/franklin.delivery/AdobeDevXSC/refactored-disco-project/main"
+    type: "markup"
+    suffix: ".html"
