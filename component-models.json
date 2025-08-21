@@ -314,8 +314,7 @@
         "component": "cf-reference:sku",
         "name": "sku",
         "label": "SKU",
-        "valueType": "string",
-        "multi": true
+        "valueType": "string"
       }
     ]
   }
