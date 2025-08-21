@@ -32,6 +32,10 @@
           {
             "name": "Gradient to Left",
             "value": "gradient, toleft"
+          },
+          {
+            "name": "No Gradient to Right",
+            "value": "toright"
           }
         ]
       },
