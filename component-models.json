@@ -311,7 +311,7 @@
         "valueType": "string"
       },
       {
-        "component": "product-picker:sku",
+        "component": "text",
         "name": "sku",
         "label": "SKU",
         "valueType": "string",
