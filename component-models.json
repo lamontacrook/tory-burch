@@ -311,7 +311,7 @@
         "valueType": "string"
       },
       {
-        "component": "text",
+        "component": "custom-product-namespace:product",
         "name": "sku",
         "label": "SKU",
         "valueType": "string",
