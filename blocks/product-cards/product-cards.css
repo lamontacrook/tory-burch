@@ -1,4 +1,11 @@
 .product-cards {
-    background-color: red;
     padding: 20px;
+    background-color: var(--overlay-background-color);
+}
+
+.product-card-image ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
