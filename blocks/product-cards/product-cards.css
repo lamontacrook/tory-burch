@@ -3,9 +3,13 @@
     background-color: var(--overlay-background-color);
 }
 
-.product-card-image ul {
+.product-cards ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     gap: 5px;
+}
+
+.product-cards p {
+    display: none;
 }

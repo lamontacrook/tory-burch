@@ -28,6 +28,7 @@ export default async function decorate(block) {
     }));
   }
   console.log(ul);
-  // lastDiv.replaceWith(ul);
-  block.append(ul);
+  const place =lastDiv.querySelector('div');
+  place.append(ul);
+  // block.append(ul);
 }
