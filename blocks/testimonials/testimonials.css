@@ -30,6 +30,11 @@ main .testimonials {
   text-align: center;
 }
 
+main .testimonials img {
+  width: 276px;
+  padding-bottom: 20px;
+}
+
 main .testimonials .slider {
   max-width: var(--highlight-slider-max-width);
   display: flex;
