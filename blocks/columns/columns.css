@@ -19,9 +19,13 @@
   display: block;
 }
 
+.columns > div > div > p {
+  margin:0;
+}
+
 @media (width >= 900px) {
   .columns > div {
-    align-items: center;
+    align-items: start;
     flex-direction: unset;
     gap: 32px;
   }
@@ -30,4 +34,5 @@
     flex: 1;
     order: unset;
   }
+
 }
