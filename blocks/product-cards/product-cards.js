@@ -5,16 +5,13 @@ export default async function decorate(block) {
 
   const lastDiv = [...block.children].pop();
   const skus = lastDiv.querySelector('p').textContent.split(',');
-  console.log(skus);
   const ul = document.createElement('ul');
 
   const productsResponse = await fetch(products);
   if (productsResponse.ok) {
     const p = await productsResponse.json();
     p.data.forEach(product => skus.forEach(sku => {
-      console.log('Evaluating', product.SKU, sku, product.SKU === sku);
       if (product.SKU === sku) {
-        console.log('Match', product.SKU, sku);
         const li = document.createElement('li');
         const div = document.createElement('div');
         div.className = 'product-card-image';
@@ -27,7 +24,6 @@ export default async function decorate(block) {
       }
     }));
   }
-  console.log(ul);
   const place =lastDiv.querySelector('div');
   place.append(ul);
   // block.append(ul);

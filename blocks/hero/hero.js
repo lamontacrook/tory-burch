@@ -24,4 +24,5 @@ export default function decorate(block) {
     templates.forEach((cls) => gradient.classList.add(cls));
   }
   block.querySelector('div').querySelector('div').remove();
+  [...block.children][1].remove();
 }
