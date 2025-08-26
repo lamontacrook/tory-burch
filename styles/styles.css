@@ -71,6 +71,7 @@
   --hero-content-p: white;
   --hero-content-h1: white;
   --hero-content-h2: white;
+  --hero-content-h5: white;
 
   /* gradient */
   --gradient-start-color: #F00;
@@ -294,7 +295,8 @@ main img {
 .icon {
   display: inline-block;
   height: 24px;
-  width: 24px;
+  width: 200px;
+  border-bottom: 1px solid black;
 }
 
 .icon svg {

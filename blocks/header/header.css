@@ -159,6 +159,7 @@ header .nav-brand {
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
+  z-index: -10;
 }
 
 header nav .nav-brand img {
@@ -322,7 +323,7 @@ header nav .nav-tools {
 
 header nav .nav-tools img {
   width: auto;
-  height: 56px;
+  height: 15px;
 }
 
 header nav h2 {

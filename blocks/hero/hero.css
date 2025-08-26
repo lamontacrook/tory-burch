@@ -154,11 +154,15 @@ main .hero .gradient.toleft {
 
   main .hero .hero-content h1,
   main .hero .hero-content h2 {
-    line-height: 50px;
-    font-size: var(--heading-font-size-xl);
+    line-height: 27px;
+    font-size: var(--heading-font-size-m);
   }
 
   main .hero .hero-content h2 {
     font-size: var(--heading-font-size-l);
+  }
+  main .hero .hero-content h5 {
+    color: white;
+    font-size: 15px;
   }
 }

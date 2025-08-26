@@ -4,9 +4,11 @@ export default function decorate(block) {
   const h1 = block.querySelector('h1');
   const picture = block.querySelector('picture');
   const h2 = block.querySelector('h2');
+  const h5 = block.querySelector('h5');
   const p = block.querySelectorAll('p');
   const heroContent = document.createElement('div');
   heroContent.classList.add('hero-content');
+  if (h5) heroContent.append(h5);
   if (h1) heroContent.append(h1);
   if (h2) heroContent.append(h2);
   p.forEach((elem) => {

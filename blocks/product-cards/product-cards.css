@@ -1,0 +1,15 @@
+.product-cards {
+    padding: 20px;
+    background-color: var(--overlay-background-color);
+}
+
+.product-cards ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.product-cards p {
+    display: none;
+}
