@@ -5,7 +5,7 @@ export default async function decorate(block) {
 
   const lastDiv = [...block.children].pop();
   let skus = lastDiv.querySelector('p');
-  skus = skus || skus.textContent.split(',');
+  skus = skus ? skus.textContent.split(',') : [''];
   const ul = document.createElement('ul');
 
   const productsResponse = await fetch(products);
