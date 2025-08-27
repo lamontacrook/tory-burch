@@ -221,7 +221,13 @@
               }
             }
           }
-        },
+        }
+      ]
+    },
+    {
+      "title": "Commerce",
+      "id": "commerce",
+      "components": [
         {
           "title": "Product Cards",
           "id": "product-cards",
