@@ -4,7 +4,8 @@ export default async function decorate(block) {
   const products = 'https://main--demo-boilerplate--lamontacrook.hlx.page/misc/products.json?sheets=tory-burch';
 
   const lastDiv = [...block.children].pop();
-  const skus = lastDiv.querySelector('p').textContent.split(',');
+  let skus = lastDiv.querySelector('p');
+  skus = skus || skus.textContent.split(',');
   const ul = document.createElement('ul');
 
   const productsResponse = await fetch(products);
