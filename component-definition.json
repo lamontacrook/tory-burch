@@ -238,7 +238,7 @@
                 "template": {
                   "name": "Product Cards",
                   "model": "product-cards",
-                  "headline": "<h4>Our Products",
+                  "headline": "<h4>Our Products</h4>",
                   "sku": "123456"
                 }
               }
