@@ -14,6 +14,7 @@ export default async function decorate(block) {
     console.log(p);
     p.data.forEach(product => skus.forEach(sku => {
       if (product.SKU === sku) {
+        console.log('adding product', sku);
         const li = document.createElement('li');
         const div = document.createElement('div');
         div.className = 'product-card-image';
