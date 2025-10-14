@@ -14,7 +14,7 @@ export default async function decorate(block) {
     console.log(p);
     console.log('skus', skus);
     p.data.forEach(product => skus.forEach(sku => {
-      console.log(product.SKU.trim() === sku.trim());
+      console.log(product.SKU.trim(), sku.trim());
       if (product.SKU === sku) {
         console.log('adding product', sku);
         const li = document.createElement('li');
