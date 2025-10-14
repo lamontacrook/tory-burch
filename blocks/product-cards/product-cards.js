@@ -12,6 +12,7 @@ export default async function decorate(block) {
   if (productsResponse.ok) {
     const p = await productsResponse.json();
     console.log(p);
+    console.log('skus', skus);
     p.data.forEach(product => skus.forEach(sku => {
       if (product.SKU === sku) {
         console.log('adding product', sku);
